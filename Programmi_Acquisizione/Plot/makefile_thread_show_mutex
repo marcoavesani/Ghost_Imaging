@@ -1,0 +1,1 @@
+g++  multithread_show_mutex.cpp -o final_multithread_show_mutex.out -Wall -std=c++11 -march=native -lboost_system -lboost_thread  -pthread `pkg-config --cflags --libs opencv` `root-config --cflags`  `root-config --glibs` -g
